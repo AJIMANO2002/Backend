@@ -14,7 +14,7 @@ app.use(cors());
 // db
 
 mongoose.connect(
-  "mongodb://localhost:27017/demo", 
+  "mongodb+srv://trendzone:havw1RfJTH0BNjD7@cluster0.cz1ozsd.mongodb.net/test", 
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log("database start");
